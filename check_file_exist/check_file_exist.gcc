@@ -1,0 +1,16 @@
+#include <iostream>
+#include <fstream>
+
+// Linux C++
+// g++ -o cfe check_file_exist.c && ./cfe
+
+int main() {
+    std::ifstream file("./a.txt");
+    if (file.good()) {
+        std::cout << "File exist." << std::endl;
+    } else {
+        std::cout << "File doesn't exist." << std::endl;
+    }
+    return 0;
+}
+

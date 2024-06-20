@@ -1,0 +1,1 @@
+有一个文件/opt/a.txt , 请分别用Python3，Go，Rust, C, C++, Shell, Ruby实现代码，判断文件是否存在。
